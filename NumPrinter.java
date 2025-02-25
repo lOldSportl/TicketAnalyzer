@@ -1,5 +1,5 @@
 public class NumPrinter {
-     static void printNum(int ticketNum, int z) {
-        System.out.println(ticketNum); 
+    void printNum(int ticketNum) {
+        System.out.print(String.format("%06d", ticketNum) + " "); 
     }
 }
