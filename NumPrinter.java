@@ -1,5 +1,5 @@
 class NumPrinter {
-    void printNum(int ticketNum) {
+    protected void printNum(int ticketNum) {
         System.out.print(String.format("%06d", ticketNum) + " "); 
     }
 }
