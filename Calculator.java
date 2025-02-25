@@ -1,4 +1,4 @@
-public class Calculator {
+class Calculator {
     int[] numSplit(int ticketNum) {
         int firstPart = ticketNum % 1000;  
         int secondPart = ticketNum / 1000;
